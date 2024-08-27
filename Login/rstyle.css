@@ -1,0 +1,273 @@
+
+      
+body {
+      background-color: #f7ebfa; /* Shopee's orange color */
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+  }
+
+  
+
+  .container {
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      width: 400px;
+      height: 870px;
+      margin-top: 10vh;
+      margin-bottom: 10vh;
+  }
+
+  h2 {
+      text-align: center;
+      margin-bottom: 20px;
+  }
+
+  label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+ color: gray;
+
+  }
+
+  input[type="text"],
+  input[type="number"],
+  input[type="email"],
+  input[type="password"],
+  textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid gray;
+      border-radius: 5px;
+      box-sizing: border-box;
+      margin-top: 5px;
+  }
+
+  input[type="submit"] {
+      background-color: #7A288A; /* Shopee's orange color */
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 100%;
+      margin-top: 20px;
+  }
+
+  .input-field {
+width: 100%;
+padding: 10px;
+margin: 5px 0;
+border: 1px solid gray;
+border-radius: 5px;
+
+color: red;
+transition: all 0.3s ease-in-out;
+}
+
+input:hover {
+transform: scale(1.05);
+
+transition: all 0.3s ease-in-out;
+
+}
+
+input:focus {
+border-color: #aaa;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+transform: scale(1.05);
+}
+
+
+
+
+
+
+.REG {  background-color: #7A288A; /* Violet color */
+color: #fff;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+width: 400px;
+box-shadow: 0 5px 0 #5C1A6D; /* Add a shadow to create a 3D effect */
+transition: all 0.2s ease-in-out; /* Add a transition effect */
+}
+
+.REG:hover {
+background-color: #8B0A8B; /* Darker violet color on hover */
+transform: translateY(-2px); /* Move the button up on hover */
+box-shadow: 0 7px 0 #5C1A6D; /* Increase the shadow on hover */
+}
+
+.REG:active {
+transform: translateY(2px); /* Move the button down on click */
+box-shadow: 0 3px 0 #5C1A6D; /* Decrease the shadow on click */
+}
+
+.registration-form { max-width: 400px; margin: 40px auto; padding: 20px; background-color: #f9f9f9; border: 1px solid #ccc; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+
+.registration-form label { display: block; margin-bottom: 10px; }
+
+.registration-form input[type="text"], .registration-form input[type="email"], .registration-form input[type="password"], .registration-form input[type="number"], .registration-form input[type="date"], .registration-form textarea { width: 100%; padding: 10px; margin: 5px 0; border: 1px solid #ccc; border-radius: 5px; }
+
+.registration-form input[type="radio"] { margin: 5px; }
+
+.registration-form input[type="file"] {  border: 1px solid #ccc; border-radius: 5px; }
+
+.registration-form input[type="submit"] { background-color: #4CAF50; color: #fff; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; }
+
+
+
+
+
+
+label {
+font-size: 12px;
+}
+
+
+
+
+.no-account-text {
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 14px;
+margin-bottom: 5vh;
+
+
+
+
+}
+
+
+
+.login-link{
+text-decoration: none;
+color: #00698f;
+transform: translateZ(10px); /* Move the text forward in 3D space */ 
+
+}
+
+.login-link:hover {
+
+transform: scale(1.1) translateZ(20px); /* Scale and move the text forward on hover */
+
+}
+
+.form-container {
+display: flex;
+flex-direction: column;
+gap: 16px;
+}
+
+.form-group {
+display: flex;
+gap: 16px;
+}
+
+.form-group input {
+padding: 8px;
+border: 1px solid #ccc;
+border-radius: 4px;
+font-size: 16px;
+}
+
+.form-group label {
+font-size: 16px;
+font-weight: bold;
+}
+
+.form-group select {
+padding: 8px;
+border: 1px solid #ccc;
+border-radius: 4px;
+font-size: 16px;
+appearance: none;
+}
+
+.form-group input[type="radio"] {
+margin-top: 2px;
+margin-left: 8px;
+} 
+
+.no-middle-name {
+margin-top: 10px;
+}
+
+
+.no-middle-name-label {
+/* Default style for the label */
+font-weight: normal;
+color: #333;
+
+
+}
+
+.no-middle-name:checked + .no-middle-name-label {
+/* Style for the label when the checkbox is checked */
+font-weight: bold;
+color: #666;
+text-decoration: underline;
+
+}
+
+
+
+.mname {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+
+
+
+.g2name{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+
+.g1 {
+border-radius: 5px;
+border: 1px solid gray;
+padding:10px;
+width: 100px;
+}
+
+
+.bname{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+.b1 {
+border-radius: 5px;
+border: 1px solid gray;
+padding:10px;
+width: 1000px;
+}
+
+
+
+.photo {
+border: none;
+}
+
+h2 {
+color: #5C1A6D;
+}
+
+

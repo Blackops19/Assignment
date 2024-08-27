@@ -1,0 +1,138 @@
+
+body  {
+   background-color: #f7ebfa;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+   
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 10px;
+    color: gray;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+
+.login-btn {
+background-color: #7A288A; /* Violet color */
+color: #fff;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+width: 400px;
+box-shadow: 0 5px 0 #5C1A6D; /* Add a shadow to create a 3D effect */
+transition: all 0.2s ease-in-out; /* Add a transition effect */
+}
+
+.login-btn:hover {
+background-color: #8B0A8B; /* Darker violet color on hover */
+transform: translateY(-2px); /* Move the button up on hover */
+box-shadow: 0 7px 0 #5C1A6D; /* Increase the shadow on hover */
+}
+
+.login-btn:active {
+transform: translateY(2px); /* Move the button down on click */
+box-shadow: 0 3px 0 #5C1A6D; /* Decrease the shadow on click */
+}
+
+section {
+text-align: center;
+perspective: 1000px; /* Add perspective to create a 3D effect */
+}
+
+.no-account-text {
+float: left;
+font-size: 14px;
+margin-bottom: 5vh;
+transform: rotateY(20deg) translateZ(10px); /* Rotate and move the text forward in 3D space */
+
+
+
+}
+
+.no-account-text:hover {
+transform: rotateY(30deg) translateZ(20px); /* Increase the rotation and move the text forward on hover */
+
+}
+
+.register-link {
+text-decoration: none;
+color: #00698f;
+transform: translateZ(10px); /* Move the text forward in 3D space */ 
+
+}
+
+.register-link:hover {
+
+transform: scale(1.1) translateZ(20px); /* Scale and move the text forward on hover */
+
+}
+
+.forgot-password {
+float: right;
+font-size: 14px;
+
+transform: rotateY(-20deg) translateZ(10px); /* Rotate and move the text forward in 3D space */
+
+
+}
+
+.forgot-password:hover {
+transform: rotateY(-30deg) translateZ(20px); /* Increase the rotation and move the text forward on hover */
+
+}
+
+.forgot-password-link {
+text-decoration: none;
+color: #00698f;
+transform: translateZ(10px); /* Move the text forward in 3D space */
+
+}
+
+.forgot-password-link:hover {
+
+transform: scale(1.1) translateZ(20px); /* Scale and move the text forward on hover */
+
+}
+
+h2 {
+color: #5C1A6D;
+}
+
+label {
+font-size: 12px;
+}
